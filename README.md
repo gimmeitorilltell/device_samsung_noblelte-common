@@ -1,4 +1,4 @@
-# Common Device Tree for the Samsung Galaxy S6
+# Common Device Tree for the Samsung Galaxy Note 5
 
 -> Work In Progress. <-
 

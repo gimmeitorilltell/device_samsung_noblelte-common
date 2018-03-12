@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/zero-common
+LOCAL_PATH := device/samsung/noblelte-common
 
 BOARD_VENDOR := samsung
 
@@ -27,4 +27,4 @@ TARGET_SOC := exynos7420
 -include $(LOCAL_PATH)/configs/board/*.mk
 
 # inherit from the proprietary version
--include vendor/samsung/zero-common/BoardConfigVendor.mk
+-include vendor/samsung/noblelte-common/BoardConfigVendor.mk

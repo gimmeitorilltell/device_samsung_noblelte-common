@@ -16,10 +16,10 @@
 
 # LineageOS HW
 BOARD_HARDWARE_CLASS += hardware/samsung/lineagehw
-BOARD_HARDWARE_CLASS += device/samsung/zero-common/lineagehw
+BOARD_HARDWARE_CLASS += device/samsung/noblelte-common/lineagehw
 
 # NexusOS HW
-BOARD_NEXUS_HARDWARE_CLASS += device/samsung/zero-common/nexus/hardware
+BOARD_NEXUS_HARDWARE_CLASS += device/samsung/noblelte-common/nexus/hardware
 
 # HWCServices
 BOARD_USES_HWC_SERVICES := true

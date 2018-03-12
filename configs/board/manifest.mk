@@ -15,4 +15,4 @@
 #
 
 # Manifest
-DEVICE_MANIFEST_FILE += device/samsung/zero-common/configs/manifest.xml
+DEVICE_MANIFEST_FILE += device/samsung/noblelte-common/configs/manifest.xml

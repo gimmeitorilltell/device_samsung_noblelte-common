@@ -16,6 +16,7 @@
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     $(LOCAL_PATH)/configs/keylayout/sec_touchkey.kl:system/vendor/usr/keylayout/sec_touchkey.kl \
     $(LOCAL_PATH)/configs/keylayout/sec_touchscreen.kl:system/vendor/usr/keylayout/sec_touchscreen.kl \
     $(LOCAL_PATH)/configs/idc/Synaptics_HID_TouchPad.idc:system/vendor/usr/idc/Synaptics_HID_TouchPad.idc \

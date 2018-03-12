@@ -16,4 +16,4 @@
 
 # Power
 PRODUCT_PACKAGES += \
-   android.hardware.power@1.0-service.zero
+   android.hardware.power@1.0-service.noblelte
