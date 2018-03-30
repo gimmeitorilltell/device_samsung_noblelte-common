@@ -29,3 +29,4 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
+BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
