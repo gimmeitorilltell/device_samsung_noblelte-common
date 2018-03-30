@@ -23,8 +23,8 @@ TARGET_BOOTLOADER_BOARD_NAME := universal7420
 TARGET_BOARD_PLATFORM := exynos5
 TARGET_SOC := exynos7420
 
-# inherit the splitted configs
+# inherit the split configs
 -include $(LOCAL_PATH)/configs/board/*.mk
 
 # inherit from the proprietary version
--include vendor/samsung/noblelte-common/BoardConfigVendor.mk
+-include vendor/samsung/zero-common/BoardConfigVendor.mk

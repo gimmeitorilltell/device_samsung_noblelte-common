@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef ZERO_HARDWARE_POWER_V1_0_UTILS_H
-#define ZERO_HARDWARE_POWER_V1_0_UTILS_H
+#ifndef NOBLELTE_HARDWARE_POWER_V1_0_UTILS_H
+#define NOBLELTE_HARDWARE_POWER_V1_0_UTILS_H
 
 #include <map>
 #include <string>
@@ -169,4 +169,4 @@ private:
 }  // namespace hardware
 }  // namespace android
 
-#endif  // ZERO_HARDWARE_POWER_V1_0_UTILS_H
+#endif  // NOBLELTE_HARDWARE_POWER_V1_0_UTILS_H

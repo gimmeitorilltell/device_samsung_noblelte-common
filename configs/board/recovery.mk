@@ -24,4 +24,4 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 BOARD_HAS_DOWNLOAD_MODE := true
 
 # Releasetools - for resizing system filesystem
-TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/zero-common/releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/noblelte-common/releasetools

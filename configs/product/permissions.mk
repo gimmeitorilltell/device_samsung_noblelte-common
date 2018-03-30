@@ -16,5 +16,5 @@
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    device/samsung/zero-common/configs/permissions/com.samsung.permission.HRM_EXT.xml:system/vendor/etc/permissions/com.samsung.permission.HRM_EXT.xml \
-    device/samsung/zero-common/configs/permissions/com.samsung.permission.SSENSOR.xml:system/vendor/etc/permissions/com.samsung.permission.SSENSOR.xml
+    device/samsung/noblelte-common/configs/permissions/com.samsung.permission.HRM_EXT.xml:system/vendor/etc/permissions/com.samsung.permission.HRM_EXT.xml \
+    device/samsung/noblelte-common/configs/permissions/com.samsung.permission.SSENSOR.xml:system/vendor/etc/permissions/com.samsung.permission.SSENSOR.xml

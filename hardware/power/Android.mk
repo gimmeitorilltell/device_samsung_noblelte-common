@@ -18,12 +18,12 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE               := android.hardware.power@1.0-service.zero
+LOCAL_MODULE               := android.hardware.power@1.0-service.noblelte
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS          := optional
 LOCAL_PROPRIETARY_MODULE   := true
 
-LOCAL_INIT_RC := android.hardware.power@1.0-service.zero.rc
+LOCAL_INIT_RC := android.hardware.power@1.0-service.noblelte.rc
 
 LOCAL_SRC_FILES := \
 	Service.cpp \

@@ -18,4 +18,4 @@
 SIM_COUNT := 1
 
 # Manifest
-DEVICE_MANIFEST_FILE += device/samsung/zero-common/configs/radio/single/manifest.xml
+DEVICE_MANIFEST_FILE += device/samsung/noblelte-common/configs/radio/single/manifest.xml

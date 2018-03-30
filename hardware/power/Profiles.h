@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef ZERO_HARDWARE_POWER_V1_0_PROFILES_H
-#define ZERO_HARDWARE_POWER_V1_0_PROFILES_H
+#ifndef NOBLELTE_HARDWARE_POWER_V1_0_PROFILES_H
+#define NOBLELTE_HARDWARE_POWER_V1_0_PROFILES_H
 
 #include "Power.h"
 
@@ -121,4 +121,4 @@ private:
 }  // namespace hardware
 }  // namespace android
 
-#endif // ZERO_HARDWARE_POWER_V1_0_PROFILES_H
+#endif // NOBLELTE_HARDWARE_POWER_V1_0_PROFILES_H

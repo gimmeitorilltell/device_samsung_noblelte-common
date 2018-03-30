@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "zero-power"
+#define LOG_TAG "noblelte-power"
 #define LOG_NDEBUG 0
 
 #include <log/log.h>

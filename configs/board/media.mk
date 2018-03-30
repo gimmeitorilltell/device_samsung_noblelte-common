@@ -24,7 +24,7 @@ COMMON_GLOBAL_CFLAGS += -DUSE_NATIVE_SEC_NV12TILED
 # Video scaling issue workaround
 TARGET_OMX_LEGACY_RESCALING := true
 
-zero_shims_omx := \
+noblelte_shims_omx := \
     /system/lib/omx/libOMX.Exynos.AVC.Decoder.so|/vendor/lib/SHIM_TARGET.so \
     /system/lib64/omx/libOMX.Exynos.AVC.Decoder.so|/vendor/lib64/SHIM_TARGET.so \
     /system/lib/omx/libOMX.Exynos.AVC.Encoder.so|/vendor/lib/SHIM_TARGET.so \
@@ -48,8 +48,8 @@ zero_shims_omx := \
 
 # Shims: libstagefright
 TARGET_LD_SHIM_LIBS += \
-    $(subst SHIM_TARGET,libstagefright_shim,$(zero_shims_omx))
+    $(subst SHIM_TARGET,libstagefright_shim,$(noblelte_shims_omx))
 
 # Shims: libui
 TARGET_LD_SHIM_LIBS += \
-	$(subst SHIM_TARGET,libui_shim,$(zero_shims_omx))
+	$(subst SHIM_TARGET,libui_shim,$(noblelte_shims_omx))

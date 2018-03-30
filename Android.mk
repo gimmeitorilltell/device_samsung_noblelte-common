@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
+DEVICE_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),samsung)
 ifneq ($(filter nobleltetmo nobleltejv nobleltedd nobleltespr nobleltedv nobleltebmc,$(TARGET_DEVICE)),)

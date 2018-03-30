@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "zero-power-service"
+#define LOG_TAG "noblelte-power-service"
 // #define LOG_NDEBUG 0
 
 #include <hidl/LegacySupport.h>
@@ -37,7 +37,7 @@ int main() {
 	status_t status;
 	android::sp<Power> service = nullptr;
 
-	ALOGI("Zero Power HAL Service is starting...");
+	ALOGI("Noblelte Power HAL Service is starting...");
 
     service = new Power();
     if (service == nullptr) {
@@ -53,10 +53,10 @@ int main() {
         goto shutdown;
     }
 
-    ALOGI("Zero Power HAL Service is ready!");
+    ALOGI("Noblelte Power HAL Service is ready!");
     joinRpcThreadpool();
 
 shutdown:
-    ALOGE("Zero Power HAL Service is shutting down...");
+    ALOGE("Noblelte Power HAL Service is shutting down...");
     return 1;
 }

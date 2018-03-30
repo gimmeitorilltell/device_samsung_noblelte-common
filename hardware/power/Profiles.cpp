@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "zero-power-profiles"
+#define LOG_TAG "noblelte-power-profiles"
 #define LOG_NDEBUG 0
 
 #include <log/log.h>
